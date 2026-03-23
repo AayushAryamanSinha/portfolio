@@ -69,95 +69,114 @@
     <!-- Projects Section -->
     <section id="projects">
         <h2>Projects and Organizations</h2>
-        <div class="projects-grid">
-            
-            <!-- Project 1 -->
-            <div class="project-card">
-            <div class="project-image">
-                <img src="images/project1.jpg" alt="E-Truck">
-            </div>
-                <h3>E-Truck Challenge at UW</h3>
-                <div class="project-tags">
-                    <span class="tag">Raptor Dev</span>
-                    <span class="tag">Simulink</span>
-                    <span class="tag">Control Systems</span>
-                    <span class="tag">J1939</span>
-                </div>
-                <div class="project-details">
-                    <p><strong>Challenge:</strong> The E-Truck RSO at UW is a team of motivated engineers taking on the ambitious challenge of converting a class 7 diesel truck into a fully working Electric truck</p>
-                    <p><strong>Role:</strong> Human Machine Interface Engineer</p>
-                </div>
-                <div class="project-links">
-                    <a href="javascript:void(0)" class="project-link" onclick="openModal('project1')">Read More →</a>
-                    <a href="https://etruck.webflow.io/" target="_blank" class="project-link">E-Truck Website →</a>
-                </div>
-            </div>
+    <div class="projects-grid">
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/project2.png" alt="CAN Fan Control">
-                </div>
-                <h3>CAN-Based Fan Control System</h3>
-                <div class="project-tags">
-                    <span class="tag">CANalyzer</span>
-                    <span class="tag">Raptor Dev</span>
-                    <span class="tag">Simulink</span>
-                    <span class="tag">ECUs</span>
-                    <span class="tag">CANbd++</span>
-                </div>
-                <div class="project-details">
-                    <p><strong>Problem:</strong> Validate reliable CAN communication for controlling vehicle hardware while ensuring consistent signal behavior and ECU integration.</p>
-
-                    <p><strong>Role:</strong> Built and tested CAN message structures, wrote CAPL scripts for control and validation, and implemented Simulink-based logic to enable user-driven fan control.</p>
-
-                </div>
-                <div class="project-links">
-                    <a href="javascript:void(0)" class="project-link" onclick="openModal('project2')">Read More →</a>
-                    <a href="#" class="project-link">GitHub →</a>
-                </div>
-            </div>
-
-<!-- Project 3 -->
-<div class="project-card">
-    <div class="project-image">
-        <img src="images/project3.png" alt="Cabin Test Bench">
-    </div>
-
-    <h3>Cabin Test Bench (In progress)</h3>
-
-    <div class="project-tags">
-        <span class="tag">Signal Mapping</span>
-        <span class="tag">Simulink</span>
-        <span class="tag">HIL/SIL</span>
-    </div>
-
-    <div class="project-details">
-            <p>
-            <strong>Goal:</strong> Reverse-engineer the truck’s steering column controls to enable custom implementation without existing documentation.
-            </p>
-
-            <p>
-            <strong>How:</strong> Performed continuity testing to identify ground references and control signals, then validated behavior using a simple test circuit.
-            </p>
-
-
-    </div>
-
-    <div class="project-links">
-        <a href="javascript:void(0)"
-           class="project-link"
-           onclick="openModal('project3')">
-            Read More →
-        </a>
-        <a href="#" class="project-link">GitHub →</a>
-    </div>
-</div>
-
-
-
+    <!-- Project 1 -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/project1.jpg" alt="E-Truck">
         </div>
-    </section>
+        <h3>E-Truck Challenge at UW</h3>
+        <div class="project-tags">
+            <span class="tag">Raptor Dev</span>
+            <span class="tag">Simulink</span>
+            <span class="tag">Control Systems</span>
+            <span class="tag">J1939</span>
+        </div>
+        <div class="project-details">
+            <p><strong>Challenge:</strong> Converting a class 7 diesel truck into a fully electric vehicle.</p>
+            <p><strong>Role:</strong> Human Machine Interface Engineer</p>
+        </div>
+        <div class="project-links">
+            <a href="javascript:void(0)" class="project-link" onclick="openModal('project1')">Read More →</a>
+            <a href="https://etruck.webflow.io/" target="_blank" class="project-link">E-Truck Website →</a>
+        </div>
+    </div>
+
+    <!-- Project 2 (NEW ESP32 RC) -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/espthing.png" alt="ESP32 RC Platform">
+        </div>
+        <h3>WiFi-Controlled ESP32 RC Platform (In Progress)</h3>
+        <div class="project-tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">Embedded Systems</span>
+            <span class="tag">UDP</span>
+            <span class="tag">PWM</span>
+        </div>
+        <div class="project-details">
+            <p><strong>Focus:</strong> Real-time wireless vehicle control with live video streaming over custom UDP protocol.</p>
+        </div>
+        <div class="project-links">
+            <a href="javascript:void(0)" class="project-link" onclick="openModal('projectRC')">Read More →</a>
+            <a href="https://github.com/AayushAryamanSinha/MOZAR3-Control-inputs" class="project-link">GitHub →</a>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/project2.png" alt="CAN Fan Control">
+        </div>
+        <h3>CAN-Based Fan Control System</h3>
+        <div class="project-tags">
+            <span class="tag">CANalyzer</span>
+            <span class="tag">Raptor Dev</span>
+            <span class="tag">Simulink</span>
+            <span class="tag">ECUs</span>
+        </div>
+        <div class="project-details">
+            <p><strong>Problem:</strong> Validate reliable CAN communication for distributed control.</p>
+        </div>
+        <div class="project-links">
+            <a href="javascript:void(0)" class="project-link" onclick="openModal('project2')">Read More →</a>
+            <a href="#" class="project-link">GitHub →</a>
+        </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/project3.png" alt="Cabin Test Bench">
+        </div>
+        <h3>Cabin Test Bench</h3>
+        <div class="project-tags">
+            <span class="tag">Signal Mapping</span>
+            <span class="tag">Simulink</span>
+            <span class="tag">HIL/SIL</span>
+        </div>
+        <div class="project-details">
+            <p><strong>Goal:</strong> Reverse-engineer steering controls for custom implementation.</p>
+        </div>
+        <div class="project-links">
+            <a href="javascript:void(0)" class="project-link" onclick="openModal('project3')">Read More →</a>
+            <a href="#" class="project-link">GitHub →</a>
+        </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+        <div class="project-image">
+            <img src="images/f1.png" alt="Formula 1 Data Analysis">
+        </div>
+        <h3>Formula 1 Data Analysis</h3>
+        <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Data Analysis</span>
+        </div>
+        <div class="project-details">
+            <p><strong>Focus:</strong> Statistical analysis of F1 performance trends across 75+ years of data.</p>
+        </div>
+        <div class="project-links">
+            <a href="javascript:void(0)" class="project-link" onclick="openModal('projectF1')">Read More →</a>
+            <a href="#" class="project-link">GitHub →</a>
+        </div>
+    </div>
+
+    </div>
+
 
     <!-- Modal for Project 1 -->
     <div id="project1" class="project-modal">
@@ -379,6 +398,97 @@
                 </p>
 
 
+            </div>
+        </div>
+    </div> 
+
+
+        <!-- Modal for Project 4 -->
+    <div id="project4" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('project4')">&times;</span>
+
+            <h2>Formula 1 Performance Data Analysis</h2>
+
+            <div class="modal-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Time-Series</span>
+                <span class="tag">Multi-Dataset Integration</span>
+            </div>
+
+            <div class="modal-body">
+                <h3>Overview</h3>
+                <p>
+                This project integrates over 70 years of Formula 1 data (1950–2024)
+                to analyze driver transfers, regulation impacts, pit strategy, and
+                championship prediction trends.
+                </p>
+
+                <h3>Research Questions</h3>
+                <ul>
+                    <li>Does switching drivers significantly affect constructor standings?</li>
+                    <li>How predictive is the first race of a season?</li>
+                    <li>Have cars become faster despite stricter regulations?</li>
+                    <li>How much do pit stop times affect finishing position?</li>
+                </ul>
+
+                <h3>Technical Execution</h3>
+                <p>
+                Multiple CSV datasets were merged using raceId, driverId, and constructorId keys.
+                Statistical correlation and time-series modeling were performed in Python
+                using Pandas with interactive visualizations.
+                </p>
+            </div>
+
+            <div class="modal-links">
+                <a href="https://github.com/aayusharyamansinha/F1Analyzer"
+                target="_blank"
+                class="btn btn-primary">
+                View Repository
+                </a>
+            </div>
+        </div>
+    </div> 
+
+        <!-- Modal for ESP32 RC -->
+    <div id="projectRC" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal('projectRC')">&times;</span>
+
+            <h2>WiFi-Controlled ESP32 RC Platform</h2>
+
+            <div class="modal-tags">
+                <span class="tag">ESP32</span>
+                <span class="tag">UDP</span>
+                <span class="tag">Real-Time Control</span>
+                <span class="tag">Power Electronics</span>
+            </div>
+
+            <div class="modal-video-container">
+                <video controls class="modal-video">
+                    <source src="videos/IMG_6966.mov" type="video/mp4">
+                    Your browser does not support video.
+                </video>
+            </div>
+
+            <div class="modal-body">
+                <p>
+                A distributed embedded vehicle control system consisting of a PC-based control interface and an onboard ESP32 microcontroller responsible for real-time actuation and wireless communication.
+                </p>
+
+                <ul>
+                    <li>240 MHz dual-core ESP32</li>
+                    <li>Custom 2-byte UDP protocol at 50 Hz</li>
+                    <li>Hardware PWM motor control (0–255 duty)</li>
+                    <li>Servo steering (50 Hz pulse)</li>
+                    <li>LM2596 regulated 5V rail</li>
+                    <li>Live MJPEG WiFi video stream</li>
+                </ul>
+
+                <p>
+                Demonstrates full-stack embedded engineering from human input abstraction to wireless actuation and live video feedback.
+                </p>
             </div>
         </div>
     </div>
